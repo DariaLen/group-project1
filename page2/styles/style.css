@@ -218,7 +218,6 @@ button {
   box-sizing: border-box;
   border-radius: 10px;
   max-width: 779px;
-  padding-right: 43px;
   display: flex;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -245,6 +244,7 @@ button {
 .cart-tour__content {
   padding-top: 27px;
   padding-left: 5%;
+  padding-right: 5%;
 }
 .cart-tour__content .cart-tour__type {
   font-family: "Montserrat", sans-serif;
@@ -335,10 +335,13 @@ button {
   color: rgb(4, 153, 221);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .all-tours {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    margin-left: 79px;
+    margin-right: 79px;
   }
   .card-column {
     gap: 79px;
@@ -347,7 +350,7 @@ button {
     font-size: 13px;
     line-height: 15.85px;
   }
-  .tour-cards {
+  .cart-tour {
     max-width: 610px;
     min-height: 444px;
     box-sizing: border-box;

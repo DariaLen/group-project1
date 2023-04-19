@@ -258,7 +258,7 @@ button {
   border-radius: 10px ;
   max-width: 779px;
   // max-width: 70em;
-  padding-right: 43px;
+  // padding-right: 43px;
   display: flex;
   font-family: $font;
   font-weight:500;
@@ -287,6 +287,7 @@ button {
 .cart-tour__content{
   padding-top: 27px;
   padding-left: 5%;
+  padding-right: 5%;
   .cart-tour__type{
     font-family: $font ;
     font-weight: 500;
@@ -389,10 +390,13 @@ button {
   }
 
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
   .all-tours{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    margin-left:79px;
+    margin-right: 79px;
   }
 
  .card-column{
@@ -402,7 +406,7 @@ button {
   font-size: 13px;
   line-height:15.85px;
  }
- .tour-cards{
+ .cart-tour{
   max-width: 610px;
  min-height: 444px;
   box-sizing: border-box;
